@@ -1,6 +1,6 @@
 # Abuja Hospital Group: Performance Analysis Dashboard (Power BI)
 
-![Overview page](images/overview.png)
+
 
 ## 1. Introduction
 
