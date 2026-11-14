@@ -1,5 +1,4 @@
 Abuja Hospital Group: Performance Analysis Dashboard (Power BI)
-![Overview page](images/overview.png)
 1. Introduction
 Abuja Hospital Group is a (fictional) private healthcare provider with 5 branches across the FCT: Wuse General Hospital, Garki Specialist Hospital, Kubwa Medical Centre, Gwarinpa Diagnostic Clinic and Maitama Women & Children Hospital. The group employs 60 doctors across 8 departments and runs its own laboratories and pharmacies.
 This project brings the group's visits, laboratory, pharmacy and target data into one interactive Power BI dashboard. It covers January 2025 to October 2026: 9,000 patient visits, about 11,300 lab tests and about 14,500 prescriptions.
@@ -102,6 +101,7 @@ Readmission rate	8.6%
 Target achieved	92.3%
 8. Dashboard and Visuals
 The report has 4 pages, linked by a navigation menu on the left. Every page has slicers (Year, Month or Year-Month, Branch) so users can filter the whole page.
+
 Page 1: Overview (overall hospital performance)
 ![Overview](images/overview.png)
 The executive summary for the Managing Director.
@@ -109,6 +109,7 @@ Cards: Total Visits, Unique Patients, Hospital Revenue, Avg Satisfaction, Visit 
 Slicers: Year, Month, Branch Name, Visit Type
 Visuals: visits trend by year-month, visit-type split (Outpatient 64.8%, Inpatient 22.7%, Emergency 12.5%), revenue by branch, visits by month
 Shows: how busy the hospital is, which branch earns the most (Gwarinpa ₦151M, Kubwa lowest at ₦130M), and that outpatients make up two-thirds of visits.
+
 Page 2: Patient and Clinical (patients and quality of care)
 ![Patient and Clinical](images/patient_and_clinical.png)
 For the Medical Director and department heads.
@@ -116,6 +117,7 @@ Cards: Avg Wait Minutes (35), Avg Length of Stay (5.4 days), Readmission Rate (8
 Slicers: Year-Month, Department, Gender, Payment Type, Branch
 Visuals: doctor performance table (visits, satisfaction, wait time), visits by department, visits by diagnosis, visits by payment type
 Shows: malaria is the top diagnosis (1,099 visits), followed by hypertension and type 2 diabetes. General Medicine is the busiest department (2.6K visits). NHIA is the most common payment type, closely followed by private HMOs and cash.
+
 Page 3: Pharmacy and Lab (diagnostic and drug demand)
 ![Pharmacy and Lab](images/pharmacy_and_lab.png)
 For the laboratory and pharmacy heads.
@@ -123,6 +125,7 @@ Cards: Lab Tests (11K), Lab Revenue (₦120M), Prescriptions (15K), Pharmacy Rev
 Slicers: Test Category, Drug Class, Branch, Year-Month
 Visuals: lab tests by test name, prescriptions by medicine, abnormal result % by test, lab revenue by test category, pharmacy revenue by drug class
 Shows: Full Blood Count is the most requested test (3.8K). Radiology earns 41% of lab revenue. Lipid Profile has the highest abnormal rate (44.5%). Paracetamol is the most prescribed drug, and antimalarials earn the most pharmacy revenue (29.7%).
+
 Page 4: Finance and Target (revenue and goals)
 ![Finance and Target](images/finance_and_target.png)
 For the Finance Director.
